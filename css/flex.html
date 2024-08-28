@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        width: 960px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .header {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .bg {
+        background-color: antiquewhite;
+    }
+
+    .text-center {
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        width: 200px;
+    }
+
+    .banner1 {
+        width: 540px;
+        margin: 0 10px 0 10px;
+    }
+
+    .banner2 {
+        width: 200px;
+    }
+
+    .menu {
+        width: 960px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        width: 960px;
+        margin-bottom: 10px;
+    }
+
+    .left {
+        height: 410px;
+        flex-wrap: wrap;
+    }
+
+    .left-top {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .left-top-section1, .left-top-section2 {
+        height: 200px;
+        width: 370px;
+    }
+    .left-top-section2 {
+        margin-left: 10px;
+    }
+
+    .left-bottom-section3, .left-bottom-section4, .left-bottom-section5, .left-bottom-section6 {
+        width: 180px;
+        height: 200px;
+    }
+
+    .left-bottom-section3, .left-bottom-section4, .left-bottom-section5 {
+        margin: 0 10px 0 0;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+
+
+    .right-section {
+        width: 200px;
+        height: 130px;
+        line-height: 130px;
+    }
+
+    .section8, .section9 {
+        margin: 10px 0 0 0;
+    }
+
+    .footer {
+        height: 60px;
+        width: 960px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="header flex">
+            <div class="logo flex bg text-center">logo</div>
+            <div class="banner1 flex bg text-center">banner1</div>
+            <div class="banner2 flex bg text-center">banner2</div>
+        </div>
+        
+        <div class="menu bg flex text-center"> 
+            menu
+        </div>
+    
+        <div class="content flex"> 
+    
+            <div class="left flex">
+                <div class="left-top flex">
+                <div class="left-top-section1 bg flex text-center">section1</div>
+                <div class="left-top-section2 bg flex text-center">section2</div>
+                </div>
+                
+                <div class="left-bottom flex">
+                <div class="left-bottom-section3 bg flex text-center">section3</div>
+                <div class="left-bottom-section4 bg flex text-center">section4</div>
+                <div class="left-bottom-section5 bg flex text-center">section5</div>
+                <div class="left-bottom-section6 bg flex text-center">section6</div>
+                </div>
+            </div>
+            <div class="right flex">
+                <div class="right-section bg flex text-center">section7</div>
+                <div class="right-section section8 bg flex text-center">section8</div>
+                <div class="right-section section9 bg flex text-center">section9</div>
+            </div>
+        </div>
+    
+    
+        <div class="footer bg flex text-center">
+            footer
+        </div>
+    
+</body>
+</html>
