@@ -14,9 +14,8 @@
 		<div class="flex w-screen">
 			<!-- 
 			原题目：wrapper 居中且宽度自适应，margin-left及margin-right为200px
-			试用 float 布局可以设置为 200px 即可居中展示 wrapper 的文字
-
-			使用 flex 布局则不需要加多余的 margin-left, margin-right
+			是因为 没有给加 wrapper 外层加一个 div
+			包含住 wrapper navigation extra 这三个
 			-->
 			<div class="wrapper bg-gray-400 h-full">
 				<div class="content">
@@ -26,7 +25,7 @@
 					<p>column text long column make silly long text filler silly very very very long filler fill very fill silly very make make filler text filler text make silly text text long fill fill make text fill long text very silly long long filler filler fill silly long make column make silly long column long make very</p>
 				</div>
 			</div>
-			<div class="navigation w-[200px] bg-cyan-500 h-full order-first flex-shrink-0">
+			<div class="navigation w-[200px] bg-cyan-500 h-full flex-shrink-0">
 				<p><strong>2) Navigation here.</strong>long long fill filler very fill column column silly filler very filler fill fill filler text fill very silly fill text filler silly silly filler fill very make fill column text column very very column fill fill very silly column silly silly fill fill long filler</p>
 			</div>
 			<div class="extra w-[200px] bg-green-500 h-full flex-shrink-0">
