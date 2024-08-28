@@ -15,8 +15,12 @@ navigation、extra 宽度25%，分居content两侧，左侧navigation，右侧ex
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="normalize.css">
 	<style>
+		.flex {
+			display: flex;
+		}
+
 		.wrapper {
 			flex-grow: 2;
 			order: 2
@@ -25,11 +29,14 @@ navigation、extra 宽度25%，分居content两侧，左侧navigation，右侧ex
 			order: 3
 		}
 
+		.content {
+			flex-direction: row;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<div>
+		<div class="header">
 			<h1>Header</h1>
 		</div>
 	<div class="content flex">
