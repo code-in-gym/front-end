@@ -11,15 +11,14 @@
 			<!-- https://tailwindcss.com/docs/preflight#headings-are-unstyled -->
 			<h1 class="text-5xl px-10 mx-1">Header</h1>
 		</div>
-		<div class="flex w-screen">
-			<!-- 
+		<!-- 
 			原题目：wrapper 居中且宽度自适应，margin-left及margin-right为200px
 			是因为 没有给加 wrapper 外层加一个 div
 			包含住 wrapper navigation extra 这三个
 			
 			wrapper navigation extra 这三个应该作为同一个层级的 div
-			-->
-			<div class="wrapper bg-gray-400 h-full">
+		-->
+			<div class="wrapper bg-gray-400 h-full flex w-screen">
 				<div class="content">
 					<p><strong>1) Content here. </strong>column long long column very long fill fill fill long text text column text silly very make long very fill silly make make long make text fill very long text column silly silly very column long very column filler fill long make filler long silly very long silly silly silly long filler make column filler make silly long long fill very.</p>
 					<p>very make make fill silly long long filler column long make silly silly column filler fill fill very filler text fill filler column make fill make text very make make very fill fill long make very filler column very long very filler silly very make filler silly make make column column</p>
@@ -27,15 +26,14 @@
 					<p>column text long column make silly long text filler silly very very very long filler fill very fill silly very make make filler text filler text make silly text text long fill fill make text fill long text very silly long long filler filler fill silly long make column make silly long column long make very</p>
 				</div>
 			</div>
-			<div class="flex flex-col h-full w-[30%]  flex-shrink-0">
-				<div class="navigation bg-cyan-500 h-full">
+			<div class="flex w-screen">
+				<div class="navigation bg-cyan-500 h-full w-[50%]">
 					<p><strong>2) Navigation here.</strong>long long fill filler very fill column column silly filler very filler fill fill filler text fill very silly fill text filler silly silly filler fill very make fill column text column very very column fill fill very silly column silly silly fill fill long filler</p>
 				</div>
-				<div class="extra bg-green-500 h-full">
+				<div class="extra bg-green-500 h-full w-[50%]">
 					<p><strong>3) More stuff here.</strong>very text make long silly make text very very text make long filler very make column make silly column fill silly column long make silly filler column filler silly long long column fill silly column very</p>
 				</div>
 			</div>
-		</div>
 		<div class="footer bg-orange-500 w-screen">
 			<p>Here it goes the footer</p>
 		</div>
