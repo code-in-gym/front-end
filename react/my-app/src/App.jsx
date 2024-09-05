@@ -15,7 +15,7 @@ function App() {
 
   // useMemo
   const xResult = useMemo(() => {
-    x(number1)
+    return x(number1)
   }, [number1])
   // 只有在 number1 变化时，才重新计算
 
