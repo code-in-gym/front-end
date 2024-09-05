@@ -1,3 +1,18 @@
+# React.memo
+
+> https://react.dev/reference/react/memo#memo
+
+作用：允许组件在Props没有改变的情况下跳过渲染
+
+React组件默认的渲染机制：只要父组件重新渲染子组件就会重新渲染
+
+---
+
+1. 验证默认的渲染机制 子跟着父一起渲染
+
+2. memo进行缓存 只有props发生变化的时候才会重新渲染 （context）
+
+```jsx
 import { memo, useState } from 'react';
 import './App.css';
 
@@ -26,3 +41,4 @@ function App() {
 }
 
 export default App;
+```
