@@ -1,5 +1,7 @@
 # useEffect
 
+> https://react.dev/reference/react/useEffect
+
 ```jsx
 import { createContext, useContext, useEffect, useState } from 'react';
 import './App.css';
