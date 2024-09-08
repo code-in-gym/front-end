@@ -1,3 +1,9 @@
+
+# useImperativeHandle
+
+> https://react.dev/reference/react/useImperativeHandle
+
+```jsx
 import { useImperativeHandle, forwardRef, useRef } from 'react';
 import './App.css';
 
@@ -38,3 +44,4 @@ function App() {
 }
 
 export default App;
+```
